@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="a">
+            <img src="assets/img/glabs.png" alt="Logo da Global Labs" width="220" height="80"></a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/danielvisicatto/" target="_blank"><img src="assets/img/insta.png" width="45" height="45"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/daniel-visicatto-b7b1bb171/" target="_blank"><img src="assets/img/linkedin.png" alt="botao do linkedin" width="45" height="45"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://api.whatsapp.com/send?phone=+5516997519788" target="_blank"><img src="assets/img/whats.png" alt="botao do whatsapp" width="45" height="45"></a>
+                </li>
+        </div>
+    </nav>
+    <div class="container-fluid text-center">
+        <h3>Este é o meu primeiro projeto usando Javascript.</h3>
+    </div>
+    <div class="container-fluid text-center">
+        <div id="counter">
+            <button class="btn btn-lg btn-primary" name="subtrair" onclick="decrement()">-</button>
+            <span id="currentNumber">0</span>
+            <button class="btn btn-lg btn-primary" name="adicionar" onclick="increment()">+</button>
+        </div>
+    </div>
+    <script src="assets/js/scipts.js"></script>
+    <footer class="text-center bg-footer margin">Desenvolvido por: Daniel Visicatto
+    </footer>
+</body>
+
+</html>

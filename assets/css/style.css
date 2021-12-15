@@ -1,0 +1,18 @@
+.navbar {
+  background-color: purple;
+  padding: 30px 0 25px 0;
+}
+.container-fluid {
+  color: white;
+  background-color: slategray;
+  padding: 25px 0 15px 0;
+}
+#currentNumber {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+footer {
+  color: white;
+  background-color: black;
+  padding: 3px 0 5px 0;
+}
